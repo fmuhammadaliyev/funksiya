@@ -22,8 +22,7 @@
 // calac funksiyasi
 function calac(total = null, op = null) {
   return function (token) {
-    if (token === "=") return total; // tugadi
-
+    if (token === "=") return total;
     // Raqam bo‘lsa
     if (typeof token === "number") {
       if (total === null) total = token; // birinchi son
